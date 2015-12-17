@@ -12,6 +12,9 @@ def show_board():
 
 def user_enter():
 	# User input a point
+	# Enter 1-3 in x and y
+	# x -> row
+	# y -> colunm
 	user_x = int(raw_input("Enter x :"))
 	user_y = int(raw_input("Enter y :"))
 	return [user_x-1,user_y-1]
